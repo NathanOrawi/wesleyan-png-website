@@ -1,0 +1,376 @@
+.content {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  display: grid;
+  grid-template-rows: 70px 500px 414px 400px 400px 400px 400px 1fr;
+}
+
+.header {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: top;
+}
+
+.header-phrase {
+  border-radius: 2px;
+  border-style: groove;
+  border-color: black;
+
+}
+
+.country-initials {
+  font-size: 8px;
+  color: rgb(153, 19, 153);
+}
+
+.wesleyan-logo-container {
+  background-color: aquamarine;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.wesleyan-logo {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  margin-right: 5px; 
+  margin-left: 30px;
+  background-color: cyan;
+  
+}
+
+.menu-bar {
+  /* margin-top: 5px; */
+  margin-right: 14px;
+  margin-left: 14px;
+  /* font-weight: 1000px; */
+  font-size: 50px;
+  background-color: rgb(43, 226, 95);
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 50px;
+  width: 50px;
+}
+
+.moto-background-image-container {
+  background-image: url("/images/sun.webp");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.moto {
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  line-height: 100px;
+  
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-left: 40px;
+}
+
+.welcome {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: pink;
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px;
+}
+
+.welcome-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.welcome-right div {
+  padding: 6px 12px 6px 12px;
+}
+
+.welcome-left-background-image-container {
+  background-image: url("/images/daddy\ andy.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 8px 10px;
+  border-radius: 4px;
+  width: auto;
+}
+
+.area-name {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: lightgreen;
+  margin-top: 98px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.service-type {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: lightyellow;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.intro {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: lightseagreen;
+  font-size: 20px;
+  /* width: 350px; */
+}
+
+.welcome-left {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: lightsalmon;
+  /* display: flex;
+  flex-direction: column;
+  height: 1; */
+}
+
+.welcome-left-dashboard {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: lightgrey;
+  height: 100%;
+  width: 100px;
+  margin-right: 0px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.welcome-left-dashboard div {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: yellow;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contact-details {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+  background-color: lightblue;
+  line-height: 12px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+@media (min-width:1000px) {
+  .contact-details {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.contact-details div {
+  /* padding-left: 20px; */
+}
+
+.contact-details-head {
+
+}
+
+.office-hours {
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  background-color: slateblue;
+}
+
+.important-phones {
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  background-color: wheat;
+  line-height: 30px;
+}
+
+.address {
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  background-color: lightgreen;
+  line-height: 22px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.street-adress {
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  background-color: lightgoldenrodyellow;
+}
+
+.postal-address {
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  background-color: lightsalmon
+
+}
+
+.our-services {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: pink;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-of-main-services {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+  .list-of-main-services {
+    flex-direction: row;
+  }
+}
+
+.our-facilities {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+  background-color: lightblue;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-of-main-facilities {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+  .list-of-main-facilities {
+    flex-direction: row;
+  }
+}
+
+.about-us {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: pink;
+  padding-left: 20px;
+}
+
+.location {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: blue;
+  background-color: rgb(137, 161, 137);
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.google-map {
+  position: relative;
+   /* transform: translate(50px, 100px) */
+}
+
+@media (min-width: 1000px) {
+  .location {
+    flex-direction: row;
+    
+
+  }
+
+  .location-info {
+    margin: 60px;
+  }
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-footer {
+  border-bottom: 2px solid brown;
+  margin-left: 20px;
+}
+
+.social-media {
+  /* border-width: 2px;
+  border-style: dotted;
+  border-color: red; */
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  flex: 1fr 1fr 1fr;
+  /* justify-content: center; */
+  align-items: center;
+  /* vertical-align: bottom; */
+}
+
+.social-media li {
+  border-bottom: none;
+  margin-left: 20px;
+}
+
+.ion-icon {
+  /* margin-top: 6px; */
+  font-size: 30px;
+}
+
+.ion-icon:hover {
+  color: rgb(222, 154, 115);
+  /* color: rgb(85, 25, 122); */
+  transition: color 0.2s;
+}
+
+.follow-us {
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.acknowledgment {
+  border-top: 2px solid brown;
+  margin-left: 20px;
+}
+
+.wesleyan-logo-footer {
+  margin-top: 20px;
+  justify-content: center;
+}
+

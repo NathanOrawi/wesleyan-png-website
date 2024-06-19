@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding-bottom: 3000px;
+  
+}
+
+p, h1, h2, h3 {
+  font-family: Ubuntu, Arial;
+  /* padding-left: 20px; */
+}
+
+li {
+  list-style-type: none;
+  margin: 14px;
+  font-family: Ubuntu, Arial;
+  /* border: 2px solid black; */
+  border-bottom: 2px solid red;
+  margin: 0;
+  padding: 18px; 
+}
+
